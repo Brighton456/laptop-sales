@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1020;
+  --card: #0f172a;
+  --text: #e5e7eb;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
